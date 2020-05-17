@@ -1,0 +1,2 @@
+<!--miniprogram/pages/booktypelist/booktypelist.wxml-->
+<typeroom class="chatroom"   booktypea="{{bookTplist}}"></typeroom>

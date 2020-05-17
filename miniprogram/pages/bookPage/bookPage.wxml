@@ -1,0 +1,70 @@
+	
+<view class="weui-panel weui-panel_access">
+    <view class="weui-panel__bd">
+				<a class="weui-media-box weui-media-box_appmsg">
+					<view class="weui-media-box__hd">
+						<image class="weui-media-box__thumb" src="{{content.image}}" alt></image>
+					</view>
+					<view class="weui-media-box__bd">
+						<h4 class="weui-media-box__title">{{content.name}}</h4>
+				    <view class="weui-flex" hover-class="none" hover-stop-propagation="false">
+					  <text class="title top" selectable="false" space="{{true}}" decode="false">
+						{{content.author}}&nbsp;|
+					  </text>
+					  
+					   <text class="title top-bar" selectable="false" space="{{true}}" decode="false">
+						{{content.category}}&nbsp;|
+					  </text>
+					   <text class="title top-bar" selectable="false" space="false" decode="false">
+						8万字
+					  </text>
+						
+					</view>
+					<h6 class="weui-media-box__titlee" style="color:#999999;">	{{content.status}}</h6>
+
+					  
+					</view>
+				</a>   
+    </view>
+	<view class="weui-flexaaa" hover-class="none" hover-stop-propagation="false">
+			<button class="typea"  type="default" size="mini" bindtap="join" wx:if="{{flag}}">{{value}}</button>
+			<button class="typea"  type="default" size="mini" bindtap="delate"   wx:if="{{!flag}}">移除书架</button>
+      	    <button  class="typeb" type="warn" size="mini" bindtap="look">开始阅读</button>
+			  </view>
+    
+</view>
+
+<view class="weui-panel weui-panel_access content content_bar" hover-class="none" hover-stop-propagation="false">
+	    <view class="weui-flex__item" >	<view class="ten" >追人气</view>	    <view class="nine" >1287</view></view>
+		<view class="weui-flex__item" >	<view class="ten" >读者留存率</view>	<view class="nine" >14.95%</view></view>
+		<view class="weui-flex__item" >	<view class="ten" >日更字数/天</view>	<view class="nine" >0</view></view>
+</view>
+<view class="weui-panel weui-panel_access content " hover-class="none" hover-stop-propagation="false">
+	<view class="weui-media-box__desc texts" hover-class="none" hover-stop-propagation="false">
+		{{content.des}}
+	
+	</view>
+</view>
+
+
+
+
+
+<view class="weui-panel weui-panel_access content ccc" hover-class="none" bindtap="to_ml" hover-stop-propagation="false">
+<view class="bbb" hover-class="none" hover-stop-propagation="false">
+	 <view class="one" hover-class="none" hover-stop-propagation="false">
+		 目录
+	 </view>	
+        </view>
+		 <view class="aaa">
+		  <view class="two" hover-class="none" hover-stop-propagation="false">
+		{{content.latest_chapter_name}}
+	 </view>
+	 <image class="imag_btn" src="/images/fenye-xiayiye_1.png" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload="">
+		 
+	 </image>
+	 </view>
+
+</view>
+
+<conment class="footer" id="{{id}}"  pinLun="{{ pinLun}}" ></conment>

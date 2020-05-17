@@ -1,0 +1,30 @@
+<view class="weui-panel" hover-class="none" hover-stop-propagation="false" wx:for="{{pinLun}}" wx:key="index">
+   <view class="conment_list" hover-class="none" hover-stop-propagation="false">
+       <view class="weui-panel_lft" hover-class="none" hover-stop-propagation="false">
+          <image class="image_top" src="{{item.url}}"  lazy-load="false" binderror="" bindload="">
+          </image>
+        <view class="name" hover-class="none" hover-stop-propagation="false">
+           {{item.name}}
+        </view>
+       </view>
+      
+
+   </view>
+     <view class="weui-panel_right" hover-class="none" hover-stop-propagation="false">
+          <view class="content_yes" hover-class="none" hover-stop-propagation="false">
+            {{item.text}}
+          </view>
+            
+       </view>
+   <view class="conment_footer" hover-class="none" hover-stop-propagation="false">
+      <text class="" selectable="false" space="false" decode="false">
+        {{item.time}}
+      </text>
+      <text class="use" selectable="false" space="false" decode="false">
+          99人点赞
+      </text>
+</view>
+
+
+</view>
+<button class="btn" type="primary" bindtap="todetai">发布</button>

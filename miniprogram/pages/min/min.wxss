@@ -1,0 +1,24 @@
+/* miniprogram/pages/min/min.wxss */
+.weui-media-box__thumb{
+  border-radius: 50%;
+}
+.weui-media-box__title{
+  font-weight: 900;
+}
+.weui-panel__bd{
+  background-color: #ffffff
+}
+.aaa{
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+.user{
+  width: 117px;
+  margin: 0;
+}
+.db_ui{
+   text-align: left !important;
+   font-size: 17px !important;
+  padding-left: 0 !important;
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+  "conment": "/components/conment/conment"
+  },
+   "navigationBarTitleText": "书籍详情"
+}

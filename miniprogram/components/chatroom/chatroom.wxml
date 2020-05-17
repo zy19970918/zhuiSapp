@@ -1,0 +1,27 @@
+<view class="page__bd">
+  <view class="weui-panel weui-panel_access">
+    <slot></slot>
+    <view class="weui-panel__bd"  wx:for="{{booktypea}}" wx:key="_id" bindtap="toBookPage" data-id="{{item.id}}">
+      <a class="weui-media-box weui-media-box_appmsg">
+        <view class="weui-media-box__hd">
+          <image class="weui-media-box__thumb" src="{{item.image}}" alt></image>
+        </view>
+        <view class="weui-media-box__bd">
+          <h4 class="weui-media-box__title">{{item.name}}</h4>
+          <view class="weui-media-box__desc">{{item.des}}</view>
+        </view>
+      </a>
+      <view class="weui-media-box__info">
+        <view class="weui-media-box__info__meta">笔趣阁</view>
+        <view class="weui-media-box__info__meta">{{item.update_time}}</view>
+        <view class="weui-media-box__info__meta weui-media-box__info__meta_extra">{{item.category}}</view>
+      </view>
+    </view>
+    <view class="weui-panel__ft">
+      <a class="weui-cell weui-cell_active weui-cell_access weui-cell_link">
+        <!-- <view class="weui-cell__bd">查看更多</view> -->
+        <slot name="qs"></slot>
+      </a>
+    </view>
+  </view>
+</view>

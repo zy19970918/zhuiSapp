@@ -1,0 +1,13 @@
+
+        <view class="weui-cells weui-cells_after-title">
+            <view url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
+                <view class="weui-cell__bd db">目录</view>
+                <view class="Top_bar" hover-class="none" hover-stop-propagation="false">
+                    共{{count}}章
+                </view>
+                   <view class="__ft weui-cell__ft_in-access" bindtap="DX">倒序</view>
+            </view>
+            <view wx:for="{{booklist}}" wx:key="chaperIdx" class="weui-cell weui-cell_access" data-id="{{item.chaperIdx}}" bindtap="getBookcontent" hover-class="weui-cell_active">
+                <view class="weui-cell__bd buton_bar">{{item.name}}</view>
+            </view>
+        </view>

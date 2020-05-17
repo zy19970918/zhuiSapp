@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "bookrcak":"/components/chatroom/chatroom"
+  },
+  "navigationBarTitleText": "书架"
+}

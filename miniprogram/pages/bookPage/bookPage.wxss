@@ -1,0 +1,130 @@
+/* miniprogram/pages/bookPage/bookPage.wxss */
+/* .weui-flex{
+    margin-bottom: 15px;
+} */
+.weui-flex{
+    font-size: 12px;
+}
+.weui-flex__item{
+    display: inline-block;
+    line-height: 100%;
+}
+.bar .weui-flex__item{
+    text-align: center;
+}
+.content{
+    display: flex;
+    padding: 16px;
+}
+.content_bar{
+    padding: 25px 0 !important;
+}
+.content .weui-flex__item{
+    text-align: center;
+}
+.nine{
+    text-align: center;
+}
+.texts{
+    -webkit-line-clamp: 4 !important;
+}
+.one{
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.two{
+    font-size: 12px;
+    color: #999999;
+    max-width: 60%;
+    color: #999;
+    /* word-break: break-all; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+   
+
+}
+.weui-media-box_appmsg .weui-media-box__hd{
+    width: 70px;
+    height: 80px;
+    margin-right: 5px;
+}
+.weui-media-box__titlee{
+    font-size: 12px;
+}
+.weui-flexaaa{
+    padding: 16px;
+    padding-top: 0 !important;
+    overflow: hidden;
+}
+.typea{
+    color: #b9335f !important;
+    float: left;
+    background-color: white !important;
+    border: 1px solid red;
+}
+.typeb{
+    float: right;
+}
+.weui-panel{
+    margin-top: -2px !important;
+}
+.ten{
+    font-size: 12px;
+    color: #999999;
+    padding-bottom: 5px;
+}
+.imag-bt{
+
+  margin-top: 60px;
+}
+.ccc{
+    position: relative;
+}
+
+.aaa{
+   position: absolute;
+   right: 20px;
+}
+.imag_btn{
+    height: 15px !important;
+    width: 15px !important;
+    position: absolute;
+   right: 15px;
+   top: 3px;
+}
+.title{
+    display: inline;
+}
+.top{
+    color: #b93321;
+}
+.top-bar{
+    margin-left: 5px;
+    color: #999999;
+}
+.footer{
+  position: relative;
+}
+.footer_left{
+    display: inline;
+}
+.imag_button {
+    height: 40px;
+    width: 40px;
+   
+}
+.footer_right{
+    display: inline;
+     margin-left: 5px;
+}
+.add{
+    display: block;
+}
+.zdd{
+    display: inline;
+}
+.footer{
+    margin-top: 1px;
+}

@@ -1,0 +1,18 @@
+/* pages/bookML/bookML.wxss */
+.weui-cells {
+    margin-top: 0 !important;
+}
+.db{
+    font-weight: 900;
+    font-size: 18px;
+}
+.Top_bar{
+    margin-right: 150px;
+    font-size: 12px;
+    margin-top: 7px;
+    color: #999999;
+}
+.buton_bar{
+    font-size: 12px;
+    color: #999999;
+}

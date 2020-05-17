@@ -1,0 +1,12 @@
+/* miniprogram/pages/paiHan/paiHan.wxss */
+image{
+  height:40px;
+  width: 40px;
+}
+.weui-grid__icon+.weui-grid__label {
+  margin-top: 20px !important; 
+}
+.weui-grid__label{
+  color: #999999;
+  font-size: 12px;
+}

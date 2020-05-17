@@ -1,0 +1,21 @@
+ @import '/weui.wxss'; 
+.weui-media-box__desc {
+  font-size: 12px;
+}
+.weui-media-box__info{
+  padding-top: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 13px;
+  color: #666666;
+}
+.weui-media-box__info__meta_extra{
+  float: right;
+}
+.weui-media-box{
+  padding-bottom: 0px;
+} 
+.weui-media-box__title{
+  font-size: 16px;
+  font-weight: 500;
+} 

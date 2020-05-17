@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/min/min",
+    "pages/bookRack/bookRack",
+    "pages/paiHan/paiHan",
+    "pages/pay/pay",
+    "pages/Vip/Vip",
+    "pages/details/details",
+    "pages/content/content",
+    "pages/bookPage/bookPage",
+    "pages/bookML/bookML",
+    "pages/pagea/Pagea",
+    "pages/booktypelist/booktypelist",
+    "editor/editor",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundColor": "#DC143C",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#DC143C",
+    "navigationBarTitleText": "追书神器",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/bookRack/bookRack",
+        "text": "书架",
+        "iconPath": "./images/books (1).png",
+        "selectedIconPath": "./images/books (2).png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "书城",
+        "iconPath": "./images/shucheng (2).png",
+        "selectedIconPath": "./images/shucheng (3).png"
+      },
+      {
+        "pagePath": "pages/min/min",
+        "text": "我的",
+        "iconPath": "./images/wode.png",
+        "selectedIconPath": "./images/wode (1).png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
